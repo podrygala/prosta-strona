@@ -1,0 +1,51 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ffff;
+    border: 1px solid #555;
+    
+
+}
+
+li {
+    float: left;
+    
+    
+}
+
+li a {
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+.About {
+    color: #FFDA19;
+    border-right: 1px solid #555;
+}
+
+.Skills {
+    color: #FF00BC;
+    border-right: 1px solid #555;
+}
+
+.Portfolio {
+    color: #14CCCB;
+    border-right: 1px solid #555;
+}
+
+.Contact {
+    color: #059EFF;
+}
+
+.paragraph {
+    background-color: #FFDA19;
+}
