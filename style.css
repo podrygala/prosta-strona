@@ -5,14 +5,10 @@ ul {
     overflow: hidden;
     background-color: #ffff;
     border: 1px solid #555;
-    
-
 }
 
 li {
-    float: left;
-    
-    
+    float: left;   
 }
 
 li a {
@@ -23,8 +19,7 @@ li a {
 }
 
 .flex-container {
-    display: flex;
-    
+    display: flex;    
 }
 
 .About {
@@ -48,4 +43,32 @@ li a {
 
 .paragraph {
     background-color: #FFDA19;
+}
+
+.purple {
+    height: 100px;
+    width: 100px;
+    background-color: #8E44AD;
+    display: inline-block;
+}
+
+.green {
+    height: 100px;
+    width: 100px;
+    background-color: #1ABC9C;
+    display: inline-block;
+}
+
+.orange {
+    height: 100px;
+    width: 100px;
+    background-color: #E67E22  ;
+    display: inline-block;
+}
+
+.blue {
+    height: 100px;
+    width: 100px;
+    background-color: #3498DB    ;
+    display: inline-block;
 }
