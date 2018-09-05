@@ -97,3 +97,10 @@ li a {
     display: block;
     margin: 5px;
 }
+
+input[type=submit] {
+    width: 115px;
+    height: 19px;
+    background-color: #059EFF;
+    color: white;
+}

@@ -6,24 +6,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="flex-container">
+    <nav class="flex-container">
         <ul>
-            <li><a href="" class="About">About us</a></li>
-            <li><a href="" class="Skills">Skills</a></li>
-            <li><a href="" class="Portfolio">Portfolio</a></li>
-            <li><a href="" class="Contact">Contact</a></li>
+            <li><a href="#about-us" class="About">About us</a></li>
+            <li><a href="#skills" class="Skills">Skills</a></li>
+            <li><a href="#portfolio" class="Portfolio">Portfolio</a></li>
+            <li><a href="#contact" class="Contact">Contact</a></li>
         </ul>
-    </div>
+    </nav>
     
-    <div>
-        <section class="paragraph" >
-            <h2>About us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, tenetur! Cumque, reprehenderit tenetur nostrum repellat recusandae rerum consectetur! Expedita quos voluptates, voluptatibus dolore, hic tenetur soluta error velit adipisci deleniti rerum nobis quis, perferendis quasi porro ab ipsum ex magnam. Maxime perferendis aliquid ratione voluptate, dolores exercitationem consequuntur tenetur! Eos laudantium ad itaque explicabo, nobis necessitatibus alias ipsum quod natus facilis debitis inventore impedit, dolore reiciendis, magnam ducimus beatae eligendi fugit, perferendis provident sint perspiciatis odio nisi. Est quo aut, dolorum quam. Ipsa voluptatibus molestias officiis? Autem labore doloribus illo ipsum quod voluptate necessitatibus sint similique, minus, odit exercitationem ea.</p>
-        </section>
-    </div>
-    
+     <section class="paragraph" id="about-us">
+        <h2>About us</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, tenetur! Cumque, reprehenderit tenetur nostrum repellat recusandae rerum consectetur! Expedita quos voluptates, voluptatibus dolore, hic tenetur soluta error velit adipisci deleniti rerum nobis quis, perferendis quasi porro ab ipsum ex magnam. Maxime perferendis aliquid ratione voluptate, dolores exercitationem consequuntur tenetur! Eos laudantium ad itaque explicabo, nobis necessitatibus alias ipsum quod natus facilis debitis inventore impedit, dolore reiciendis, magnam ducimus beatae eligendi fugit, perferendis provident sint perspiciatis odio nisi. Est quo aut, dolorum quam. Ipsa voluptatibus molestias officiis? Autem labore doloribus illo ipsum quod voluptate necessitatibus sint similique, minus, odit exercitationem ea.</p>
+    </section>
+
        
-    <section class="skills" >
+    <section class="skills" id="skills">
         <h2>Skills</h2>
         <div class="pink"></div>
         <div class="red"></div>
@@ -31,11 +29,29 @@
         <div class="black"></div>
     </section>
     
-    <section>
+    <section id="portfolio">
         <h2>Portfolio</h2>
         <div class="light-green"></div>
         <div class="green"></div>
         <div class="dark-green"></div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2>Katarzyna Podrygała</h2>
+        <address>Aleja Jana Rodowicza Anody<br>02-786 Warszawa </address>
+        <br>
+        <form>
+           Imię<br>
+            <input type="text" name="Imię" required>
+            <br>
+            Temat<br>
+            <input type="text"name="Temat" required>
+            <br>
+            Wiadomość<br>
+            <input type="text"name="Wiadomość" required>
+            <br><br>
+            <input type="submit" value="Wyślij">
+        </form>
     </section>
 </body>
 </html>
